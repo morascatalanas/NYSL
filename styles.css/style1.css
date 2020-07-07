@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+ 
+header{
+   background-image: url("../image/design1_image1.jpg") ;
+   height: 200px;
+   padding: 3px;
+   background-attachment: scroll;
+   background-position:center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: black;
+   font-size: 3vh;
+   text-align: left;
+}
+
+h2{
+  display: block;
+  background-color: black;
+  color: white;
+  background-size: cover;
+  text-align: center;
+ 
+}
+#logo {
+  position: absolute;
+  max-width: 150px;
+  min-width: 10px;
+  top: 100px;
+  padding: 20px;
+  right: 5%
+  }
+  
+nav>a {
+  display: block;
+  width: 20%;
+  padding: 1%;
+  margin: 2%;
+  font-size: 20px;
+  top: 230px;
+  height: 30%;
+  text-decoration: none;
+  color: black;
+
+}
+  
+  main {
+  padding: 15px; 
+  margin:10px; 
+  width: 90vh;
+  position: absolute;
+  display: inline-block;
+  top: 230px;
+  left: 50vh;
+  } 
+  
+aside{
+ margin-bottom: 20px;
+}
+  
+.photo{
+  display: none;
+}
+fotter{
+  display: none;
+}
+#galery{
+  display: none;
+}

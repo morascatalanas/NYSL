@@ -1,0 +1,143 @@
+*{
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  background-image: url("../image/backg.png");
+}
+
+h1{
+display: none;
+}
+
+h2{
+  float: right;
+  background-color: #033949;
+  width: 70%;
+  padding: 2%;
+  padding-right: 10%;
+  font-size: 6vh;
+  color:white;
+  text-align: center;
+  border-bottom: #A4FF4A 1vh solid;
+  text-shadow: 3px 3px 2px black;
+  box-shadow: 1px 1px 10px black;
+}
+
+#logo{
+  display: inline-block;
+  position: absolute;
+  background-image: url(../image/cesped2.jpg) ;
+  padding: 4vh;
+  width: 30vh;
+  padding-bottom: 100%;
+ border-right: #A4FF4A 1vh solid;
+}
+
+nav>a {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform:uppercase;
+  text-align: center;
+  color: white;
+  font-size: 3vh;
+  width:40vh;
+  margin-bottom: 4vh;
+  padding: 1vh;
+  border-top: #A4FF4A 2px solid;
+  background-color: #033949;
+  text-shadow: 2px 2px black;
+  box-shadow: 4px 3px 12px black;
+}
+
+nav{
+  position: relative;
+  float: left;
+  top: 30vh;
+}
+
+main {
+  position: relative;
+  float: right;
+  right: 10vh;
+  width: 80vh;
+  margin: 5vh;
+  padding: 3vh;
+  color: white;
+  background: #033949;
+  text-shadow: 2px 2px  5px black;
+  border : #A4FF4A 3px solid;
+  box-shadow: 1px 1px 10px black;
+}
+aside{
+  padding-bottom: 10px;
+}
+
+.photo{
+float: right;
+margin: 5vh;
+margin-right: 10vh;
+border:#A4FF4A 3px solid;
+box-shadow: 1px 1px 10px black;
+}
+
+footer{
+position: fixed;
+bottom: 0;
+ width: 100%;
+ padding: 1vh;
+ background: #033949;
+ color:white;
+ text-align: center;
+ border-top: #A4FF4A 1vh solid;
+ text-shadow: 3px 3px 2px black;
+}
+
+.tabla{
+  position: relative;
+  float: center;
+  width: 100vh;
+  margin: 5vh;
+  padding: 3vh;
+  color: white;
+  background: #033949;
+  text-shadow: 2px 2px  5px black;
+  border : #A4FF4A 3px solid;
+  box-shadow: 1px 1px 10px black;
+
+}
+table{
+position:center;
+width: 80vh;
+margin: 5px;
+ }
+ table tr:hover{
+  background-color: rgba(225, 225, 225, 0.63);
+  color: black;
+}
+ tr{
+   line-height: 1.5; 
+ }
+
+   td{
+    border:white 1px solid;
+   }
+ 
+ th{
+   border:white 1px solid;
+   text-align: left;
+   text-decoration: underline;
+   }
+   caption{
+    text-align: left;
+    border:white 1px solid;
+   }
+  h4{
+    text-align:center;
+    font-size: 5vh;
+  }
+  
+  
+  
