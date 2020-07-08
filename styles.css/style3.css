@@ -29,9 +29,11 @@ h2{
   display: inline-block;
   position: absolute;
   background-image: url(../image/cesped2.jpg) ;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
   padding: 4vh;
   width: 30vh;
-  padding-bottom: 100%;
+  padding-bottom: 400%;
  border-right: #A4FF4A 1vh solid;
 }
 
@@ -56,6 +58,9 @@ nav{
   position: relative;
   float: left;
   top: 30vh;
+}
+.active {
+  background-color: green;
 }
 
 main {
@@ -138,6 +143,12 @@ margin: 5px;
     text-align:center;
     font-size: 5vh;
   }
+  #rules{
+  font-weight: 2.5vh;
+  line-height: 4vh;
+  text-align: justify;
+  }
+
   
   
   
