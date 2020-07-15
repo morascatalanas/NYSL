@@ -59,6 +59,11 @@ nav{
   float: left;
   top: 30vh;
 }
+#buttom{
+  float: right;
+  padding: 2vh;
+  top: auto;
+}
 .active {
   background-color: green;
 }
@@ -149,6 +154,11 @@ margin: 5px;
   text-align: justify;
   }
 
-  
-  
+.form_box{
+  padding: 1vh;
+}
+form{
+
+}
+
   
