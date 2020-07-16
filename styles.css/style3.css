@@ -7,25 +7,45 @@ body{
   background-image: url("../image/backg.png");
 }
 
-h1{
-display: none;
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  "logo header header"
+  "logo h2 h2"
+  "logo main photo"
+  "footer footer footer";
+  grid-template-columns:39vh auto auto;
+  grid-template-rows: 15vh 10vh auto auto;
 }
+  
+header{
+  grid-area:header;
+    background-color: #033949;
+    padding: 2.7vh;
+    font-size: 5vh;
+    color:white;
+    text-align: left;
+    border-bottom: #A4FF4A 1vh solid;
+    text-shadow: 3px 3px 2px black;
+    box-shadow: 1px 1px 10px black;
+  }
 
 h2{
-  float: right;
+  grid-area:h2;
   background-color: #033949;
-  width: 70%;
-  padding: 2%;
-  padding-right: 10%;
-  font-size: 6vh;
+  padding: 1.5%;
+  padding-left:12vh;
+  font-size: 6.5vh;
   color:white;
-  text-align: center;
-  border-bottom: #A4FF4A 1vh solid;
+  text-align: left;
+  border-bottom: #A4FF4A 0.5vh solid;
   text-shadow: 3px 3px 2px black;
   box-shadow: 1px 1px 10px black;
 }
 
+
 #logo{
+  grid-area: logo;
   display: inline-block;
   position: absolute;
   background-image: url(../image/cesped2.jpg) ;
@@ -37,7 +57,7 @@ h2{
  border-right: #A4FF4A 1vh solid;
 }
 
-nav>a {
+.bar>a {
   display: block;
   font-size: 20px;
   text-decoration: none;
@@ -52,27 +72,34 @@ nav>a {
   background-color: #033949;
   text-shadow: 2px 2px black;
   box-shadow: 4px 3px 12px black;
-}
-
-nav{
   position: relative;
-  float: left;
   top: 30vh;
 }
-#buttom{
-  float: right;
-  padding: 2vh;
-  top: auto;
+
+#buttom>a{
+  position:absolute;
+  top:22vh;
+  right:10vh;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform:uppercase;
+  text-align: center;
+  color: black;
+  font-size: 3vh;
+  width:30vh;
+  padding: 1vh;
+  box-shadow: 4px 3px 12px black;
+  background-color:#A4FF4A; 
 }
 .active {
   background-color: green;
 }
 
 main {
+  grid-area: main;
   position: relative;
-  float: right;
-  right: 10vh;
-  width: 80vh;
+  font-size:3vh;
+  width: 90vh;
   margin: 5vh;
   padding: 3vh;
   color: white;
@@ -94,35 +121,28 @@ box-shadow: 1px 1px 10px black;
 }
 
 footer{
+grid-area:footer;
 position: fixed;
 bottom: 0;
  width: 100%;
  padding: 1vh;
  background: #033949;
  color:white;
+ font-size:3vh;
  text-align: center;
  border-top: #A4FF4A 1vh solid;
  text-shadow: 3px 3px 2px black;
 }
 
-.tabla{
-  position: relative;
-  float: center;
-  width: 100vh;
-  margin: 5vh;
-  padding: 3vh;
-  color: white;
-  background: #033949;
-  text-shadow: 2px 2px  5px black;
-  border : #A4FF4A 3px solid;
-  box-shadow: 1px 1px 10px black;
-
+#tabla{
+  width:130vh;
 }
+
 table{
-position:center;
-width: 80vh;
+width: 120vh;
 margin: 5px;
  }
+
  table tr:hover{
   background-color: rgba(225, 225, 225, 0.63);
   color: black;
@@ -149,7 +169,7 @@ margin: 5px;
     font-size: 5vh;
   }
   #rules{
-  font-weight: 2.5vh;
+  font-weight: 3h;
   line-height: 4vh;
   text-align: justify;
   }
@@ -157,8 +177,3 @@ margin: 5px;
 .form_box{
   padding: 1vh;
 }
-form{
-
-}
-
-  
