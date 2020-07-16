@@ -45,7 +45,7 @@ h2{
 
 
 #logo{
-  grid-area: logo;
+  
   display: inline-block;
   position: absolute;
   background-image: url(../image/cesped2.jpg) ;
@@ -96,7 +96,7 @@ h2{
 }
 
 main {
-  grid-area: main;
+
   position: relative;
   font-size:3vh;
   width: 90vh;
@@ -121,7 +121,7 @@ box-shadow: 1px 1px 10px black;
 }
 
 footer{
-grid-area:footer;
+
 position: fixed;
 bottom: 0;
  width: 100%;
@@ -176,4 +176,9 @@ margin: 5px;
 
 .form_box{
   padding: 1vh;
+}
+
+.clothing-size{
+  display: grid;
+  grid-template-areas: "one two";
 }
